@@ -28,6 +28,10 @@ Output: 0
 Explanation: There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
 '''
 
+
+from typing import List
+
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         b = 0
