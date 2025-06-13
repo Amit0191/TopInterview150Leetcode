@@ -79,8 +79,7 @@ class Solution:
         for k, v in dict_i2r.items():
 
             q = num // k
-
             result += q * v
-            num =  num - q*k
+            num = num - q*k
         
         return result 
